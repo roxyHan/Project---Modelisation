@@ -1,0 +1,23 @@
+@namespace(uri="microservices.call_graph.MicroservicesID", prefix="msid")
+package callgraph;
+
+class CallGraph {
+	attr String name;
+	val Node[*] nodes;
+	val Edge[*] edges;
+}
+
+class Node {
+	attr String name;
+	attr String[1] ~class;
+	attr String[1] ~package;
+	attr int[1] structWeight;
+	ref Edge[*] incoming_edges;
+}
+
+class Edge {
+	attr String name;
+	attr String src;
+	attr String target;
+}
+

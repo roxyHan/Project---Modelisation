@@ -1,0 +1,5 @@
+rule model2Text
+		transform graph : M!CallGraph {
+		template : "translation.egl"
+		target : "/graphInfo.txt"
+}

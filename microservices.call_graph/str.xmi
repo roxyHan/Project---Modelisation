@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="ASCII"?>
+<msid:CallGraph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:msid="microservices.call_graph.MicroservicesID">
+  <nodes name="addRecognizedFeatures" class="ParserConfigurationSettings" package="util" structWeight="9" incoming_edges="//@edges.3 //@edges.21 //@edges.28 //@edges.44 //@edges.53 //@edges.65 //@edges.82 //@edges.91 //@edges.94"/>
+  <nodes name="addRecognizedProperties" class="ParserConfigurationSettings" package="util" structWeight="11" incoming_edges="//@edges.0 //@edges.5 //@edges.23 //@edges.30 //@edges.46 //@edges.55 //@edges.67 //@edges.83 //@edges.88 //@edges.92 //@edges.96"/>
+  <nodes name="setScannerVersion" class="XMLEntityManager" package="impl" structWeight="1" incoming_edges="//@edges.1"/>
+  <nodes name="getRecognizedFeatures" class="XMLEntityManager" package="impl" structWeight="1" incoming_edges="//@edges.2"/>
+  <nodes name="getRecognizedProperties" class="XMLEntityManager" package="impl" structWeight="1" incoming_edges="//@edges.4"/>
+  <nodes name="getFeatureDefault" class="XMLEntityManager" package="impl" structWeight="6" incoming_edges="//@edges.6 //@edges.7 //@edges.8 //@edges.9 //@edges.10 //@edges.11"/>
+  <nodes name="getPropertyDefault" class="XMLEntityManager" package="impl" structWeight="6" incoming_edges="//@edges.12 //@edges.13 //@edges.14 //@edges.15 //@edges.16 //@edges.17"/>
+  <nodes name="getEntityScanner" class="XMLEntityManager" package="impl" structWeight="1" incoming_edges="//@edges.18"/>
+  <nodes name="setDocumentLocator" class="XMLErrorReporter" package="impl" structWeight="1" incoming_edges="//@edges.19"/>
+  <nodes name="getRecognizedFeatures" class="XMLErrorReporter" package="impl" structWeight="1" incoming_edges="//@edges.20"/>
+  <nodes name="getRecognizedProperties" class="XMLErrorReporter" package="impl" structWeight="1" incoming_edges="//@edges.22"/>
+  <nodes name="getFeatureDefault" class="XMLErrorReporter" package="impl" structWeight="1" incoming_edges="//@edges.24"/>
+  <nodes name="getPropertyDefault" class="XMLErrorReporter" package="impl" structWeight="1" incoming_edges="//@edges.25"/>
+  <nodes name="setValues" class="XMLResourceIdentifierImpl" package="util" structWeight="1" incoming_edges="//@edges.26"/>
+  <nodes name="getRecognizedFeatures" class="XMLDocumentScannerImpl" package="impl" structWeight="1" incoming_edges="//@edges.27"/>
+  <nodes name="getRecognizedProperties" class="XMLDocumentScannerImpl" package="impl" structWeight="1" incoming_edges="//@edges.29"/>
+  <nodes name="getFeatureDefault" class="XMLDocumentScannerImpl" package="impl" structWeight="6" incoming_edges="//@edges.31 //@edges.32 //@edges.33 //@edges.34 //@edges.35 //@edges.36"/>
+  <nodes name="getPropertyDefault" class="XMLDocumentScannerImpl" package="impl" structWeight="7" incoming_edges="//@edges.37 //@edges.38 //@edges.39 //@edges.40 //@edges.41 //@edges.42 //@edges.43"/>
+  <nodes name="getRecognizedProperties" class="XMLDTDScannerImpl" package="impl" structWeight="1" incoming_edges="//@edges.45"/>
+  <nodes name="getFeatureDefault" class="XMLDTDScannerImpl" package="impl" structWeight="2" incoming_edges="//@edges.47 //@edges.48"/>
+  <nodes name="getPropertyDefault" class="XMLDTDScannerImpl" package="impl" structWeight="3" incoming_edges="//@edges.49 //@edges.50 //@edges.51"/>
+  <nodes name="getRecognizedFeatures" class="XMLDTDProcessor" package="dtd" structWeight="1" incoming_edges="//@edges.52"/>
+  <nodes name="getRecognizedProperties" class="XMLDTDProcessor" package="dtd" structWeight="1" incoming_edges="//@edges.54"/>
+  <nodes name="getFeatureDefault" class="XMLDTDProcessor" package="dtd" structWeight="4" incoming_edges="//@edges.56 //@edges.57 //@edges.58 //@edges.59"/>
+  <nodes name="getPropertyDefault" class="XMLDTDProcessor" package="dtd" structWeight="4" incoming_edges="//@edges.60 //@edges.61 //@edges.62 //@edges.63"/>
+  <nodes name="getRecognizedFeatures" class="XMLDTDValidator" package="dtd" structWeight="1" incoming_edges="//@edges.64"/>
+  <nodes name="getRecognizedProperties" class="XMLDTDValidator" package="dtd" structWeight="1" incoming_edges="//@edges.66"/>
+  <nodes name="getFeatureDefault" class="XMLDTDValidator" package="dtd" structWeight="4" incoming_edges="//@edges.68 //@edges.69 //@edges.70 //@edges.71"/>
+  <nodes name="getPropertyDefault" class="XMLDTDValidator" package="dtd" structWeight="5" incoming_edges="//@edges.72 //@edges.73 //@edges.74 //@edges.75 //@edges.76"/>
+  <nodes name="getInstance" class="DTDDVFactory" package="dv" structWeight="1" incoming_edges="//@edges.77"/>
+  <nodes name="getMessageFormatter" class="XMLErrorReporter" package="impl" structWeight="1" incoming_edges="//@edges.78"/>
+  <nodes name="putMessageFormatter" class="XMLErrorReporter" package="impl" structWeight="2" incoming_edges="//@edges.79 //@edges.80"/>
+  <nodes name="setLocale" class="XML11Configuration" package="parsers" structWeight="1" incoming_edges="//@edges.81"/>
+  <nodes name="setFeature" class="XIncludeAwareParserConfiguration" package="parsers" structWeight="5" incoming_edges="//@edges.84 //@edges.85 //@edges.86 //@edges.93 //@edges.95"/>
+  <nodes name="setProperty" class="XML11Configuration" package="parsers" structWeight="1" incoming_edges="//@edges.87"/>
+  <nodes name="setDTDHandler" class="XML11Configuration" package="parsers" structWeight="1" incoming_edges="//@edges.89"/>
+  <nodes name="setDTDContentModelHandler" class="XML11Configuration" package="parsers" structWeight="1" incoming_edges="//@edges.90"/>
+  <nodes name="setFeature" class="AbstractSAXParser" package="parsers" structWeight="3" incoming_edges="//@edges.97 //@edges.98 //@edges.101"/>
+  <nodes name="isXIncludeAware" class="SAXParserFactoryImpl" package="jaxp" structWeight="1" incoming_edges="//@edges.99"/>
+  <nodes name="getErrorHandler" class="AbstractSAXParser" package="parsers" structWeight="1" incoming_edges="//@edges.100"/>
+  <nodes name="getSchema" class="SAXParserFactoryImpl" package="jaxp" structWeight="1" incoming_edges="//@edges.102"/>
+  <nodes name="getEntityResolver" class="AbstractSAXParser" package="parsers" structWeight="1" incoming_edges="//@edges.103"/>
+  <nodes name="getXMLReader" class="SAXParserImpl" package="jaxp" structWeight="1" incoming_edges="//@edges.104"/>
+  <nodes name="setContentHandler" class="AbstractSAXParser" package="parsers" structWeight="1" incoming_edges="//@edges.105"/>
+  <edges name="addRecognizedFeatures" src="addRecognizedFeatures" target="addRecognizedProperties"/>
+  <edges name="addRecognizedProperties" src="addRecognizedProperties" target="setScannerVersion"/>
+  <edges name="setScannerVersion" src="setScannerVersion" target="getRecognizedFeatures"/>
+  <edges name="getRecognizedFeatures" src="getRecognizedFeatures" target="addRecognizedFeatures"/>
+  <edges name="addRecognizedFeatures" src="addRecognizedFeatures" target="getRecognizedProperties"/>
+  <edges name="getRecognizedProperties" src="getRecognizedProperties" target="addRecognizedProperties"/>
+  <edges name="addRecognizedProperties" src="addRecognizedProperties" target="getFeatureDefault"/>
+  <edges name="getFeatureDefault" src="getFeatureDefault" target="getFeatureDefault"/>
+  <edges name="getFeatureDefault" src="getFeatureDefault" target="getFeatureDefault"/>
+  <edges name="getFeatureDefault" src="getFeatureDefault" target="getFeatureDefault"/>
+  <edges name="getFeatureDefault" src="getFeatureDefault" target="getFeatureDefault"/>
+  <edges name="getFeatureDefault" src="getFeatureDefault" target="getFeatureDefault"/>
+  <edges name="getFeatureDefault" src="getFeatureDefault" target="getPropertyDefault"/>
+  <edges name="getPropertyDefault" src="getPropertyDefault" target="getPropertyDefault"/>
+  <edges name="getPropertyDefault" src="getPropertyDefault" target="getPropertyDefault"/>
+  <edges name="getPropertyDefault" src="getPropertyDefault" target="getPropertyDefault"/>
+  <edges name="getPropertyDefault" src="getPropertyDefault" target="getPropertyDefault"/>
+  <edges name="getPropertyDefault" src="getPropertyDefault" target="getPropertyDefault"/>
+  <edges name="getPropertyDefault" src="getPropertyDefault" target="getEntityScanner"/>
+  <edges name="getEntityScanner" src="getEntityScanner" target="setDocumentLocator"/>
+  <edges name="setDocumentLocator" src="setDocumentLocator" target="getRecognizedFeatures"/>
+  <edges name="getRecognizedFeatures" src="getRecognizedFeatures" target="addRecognizedFeatures"/>
+  <edges name="addRecognizedFeatures" src="addRecognizedFeatures" target="getRecognizedProperties"/>
+  <edges name="getRecognizedProperties" src="getRecognizedProperties" target="addRecognizedProperties"/>
+  <edges name="addRecognizedProperties" src="addRecognizedProperties" target="getFeatureDefault"/>
+  <edges name="getFeatureDefault" src="getFeatureDefault" target="getPropertyDefault"/>
+  <edges name="getPropertyDefault" src="getPropertyDefault" target="setValues"/>
+  <edges name="setValues" src="setValues" target="getRecognizedFeatures"/>
+  <edges name="getRecognizedFeatures" src="getRecognizedFeatures" target="addRecognizedFeatures"/>
+  <edges name="addRecognizedFeatures" src="addRecognizedFeatures" target="getRecognizedProperties"/>
+  <edges name="getRecognizedProperties" src="getRecognizedProperties" target="addRecognizedProperties"/>
+  <edges name="addRecognizedProperties" src="addRecognizedProperties" target="getFeatureDefault"/>
+  <edges name="getFeatureDefault" src="getFeatureDefault" target="getFeatureDefault"/>
+  <edges name="getFeatureDefault" src="getFeatureDefault" target="getFeatureDefault"/>
+  <edges name="getFeatureDefault" src="getFeatureDefault" target="getFeatureDefault"/>
+  <edges name="getFeatureDefault" src="getFeatureDefault" target="getFeatureDefault"/>
+  <edges name="getFeatureDefault" src="getFeatureDefault" target="getFeatureDefault"/>
+  <edges name="getFeatureDefault" src="getFeatureDefault" target="getPropertyDefault"/>
+  <edges name="getPropertyDefault" src="getPropertyDefault" target="getPropertyDefault"/>
+  <edges name="getPropertyDefault" src="getPropertyDefault" target="getPropertyDefault"/>
+  <edges name="getPropertyDefault" src="getPropertyDefault" target="getPropertyDefault"/>
+  <edges name="getPropertyDefault" src="getPropertyDefault" target="getPropertyDefault"/>
+  <edges name="getPropertyDefault" src="getPropertyDefault" target="getPropertyDefault"/>
+  <edges name="getPropertyDefault" src="getPropertyDefault" target="getPropertyDefault"/>
+  <edges name="getPropertyDefault" src="getPropertyDefault" target="addRecognizedFeatures"/>
+  <edges name="addRecognizedFeatures" src="addRecognizedFeatures" target="getRecognizedProperties"/>
+  <edges name="getRecognizedProperties" src="getRecognizedProperties" target="addRecognizedProperties"/>
+  <edges name="addRecognizedProperties" src="addRecognizedProperties" target="getFeatureDefault"/>
+  <edges name="getFeatureDefault" src="getFeatureDefault" target="getFeatureDefault"/>
+  <edges name="getFeatureDefault" src="getFeatureDefault" target="getPropertyDefault"/>
+  <edges name="getPropertyDefault" src="getPropertyDefault" target="getPropertyDefault"/>
+  <edges name="getPropertyDefault" src="getPropertyDefault" target="getPropertyDefault"/>
+  <edges name="getPropertyDefault" src="getPropertyDefault" target="getRecognizedFeatures"/>
+  <edges name="getRecognizedFeatures" src="getRecognizedFeatures" target="addRecognizedFeatures"/>
+  <edges name="addRecognizedFeatures" src="addRecognizedFeatures" target="getRecognizedProperties"/>
+  <edges name="getRecognizedProperties" src="getRecognizedProperties" target="addRecognizedProperties"/>
+  <edges name="addRecognizedProperties" src="addRecognizedProperties" target="getFeatureDefault"/>
+  <edges name="getFeatureDefault" src="getFeatureDefault" target="getFeatureDefault"/>
+  <edges name="getFeatureDefault" src="getFeatureDefault" target="getFeatureDefault"/>
+  <edges name="getFeatureDefault" src="getFeatureDefault" target="getFeatureDefault"/>
+  <edges name="getFeatureDefault" src="getFeatureDefault" target="getPropertyDefault"/>
+  <edges name="getPropertyDefault" src="getPropertyDefault" target="getPropertyDefault"/>
+  <edges name="getPropertyDefault" src="getPropertyDefault" target="getPropertyDefault"/>
+  <edges name="getPropertyDefault" src="getPropertyDefault" target="getPropertyDefault"/>
+  <edges name="getPropertyDefault" src="getPropertyDefault" target="getRecognizedFeatures"/>
+  <edges name="getRecognizedFeatures" src="getRecognizedFeatures" target="addRecognizedFeatures"/>
+  <edges name="addRecognizedFeatures" src="addRecognizedFeatures" target="getRecognizedProperties"/>
+  <edges name="getRecognizedProperties" src="getRecognizedProperties" target="addRecognizedProperties"/>
+  <edges name="addRecognizedProperties" src="addRecognizedProperties" target="getFeatureDefault"/>
+  <edges name="getFeatureDefault" src="getFeatureDefault" target="getFeatureDefault"/>
+  <edges name="getFeatureDefault" src="getFeatureDefault" target="getFeatureDefault"/>
+  <edges name="getFeatureDefault" src="getFeatureDefault" target="getFeatureDefault"/>
+  <edges name="getFeatureDefault" src="getFeatureDefault" target="getPropertyDefault"/>
+  <edges name="getPropertyDefault" src="getPropertyDefault" target="getPropertyDefault"/>
+  <edges name="getPropertyDefault" src="getPropertyDefault" target="getPropertyDefault"/>
+  <edges name="getPropertyDefault" src="getPropertyDefault" target="getPropertyDefault"/>
+  <edges name="getPropertyDefault" src="getPropertyDefault" target="getPropertyDefault"/>
+  <edges name="getPropertyDefault" src="getPropertyDefault" target="getInstance"/>
+  <edges name="getInstance" src="getInstance" target="getMessageFormatter"/>
+  <edges name="getMessageFormatter" src="getMessageFormatter" target="putMessageFormatter"/>
+  <edges name="putMessageFormatter" src="putMessageFormatter" target="putMessageFormatter"/>
+  <edges name="putMessageFormatter" src="putMessageFormatter" target="setLocale"/>
+  <edges name="setLocale" src="setLocale" target="addRecognizedFeatures"/>
+  <edges name="addRecognizedFeatures" src="addRecognizedFeatures" target="addRecognizedProperties"/>
+  <edges name="addRecognizedProperties" src="addRecognizedProperties" target="setFeature"/>
+  <edges name="setFeature" src="setFeature" target="setFeature"/>
+  <edges name="setFeature" src="setFeature" target="setFeature"/>
+  <edges name="setFeature" src="setFeature" target="setProperty"/>
+  <edges name="setProperty" src="setProperty" target="addRecognizedProperties"/>
+  <edges name="addRecognizedProperties" src="addRecognizedProperties" target="setDTDHandler"/>
+  <edges name="setDTDHandler" src="setDTDHandler" target="setDTDContentModelHandler"/>
+  <edges name="setDTDContentModelHandler" src="setDTDContentModelHandler" target="addRecognizedFeatures"/>
+  <edges name="addRecognizedFeatures" src="addRecognizedFeatures" target="addRecognizedProperties"/>
+  <edges name="addRecognizedProperties" src="addRecognizedProperties" target="setFeature"/>
+  <edges name="setFeature" src="setFeature" target="addRecognizedFeatures"/>
+  <edges name="addRecognizedFeatures" src="addRecognizedFeatures" target="setFeature"/>
+  <edges name="setFeature" src="setFeature" target="addRecognizedProperties"/>
+  <edges name="addRecognizedProperties" src="addRecognizedProperties" target="setFeature"/>
+  <edges name="setFeature" src="setFeature" target="setFeature"/>
+  <edges name="setFeature" src="setFeature" target="isXIncludeAware"/>
+  <edges name="isXIncludeAware" src="isXIncludeAware" target="getErrorHandler"/>
+  <edges name="getErrorHandler" src="getErrorHandler" target="setFeature"/>
+  <edges name="setFeature" src="setFeature" target="getSchema"/>
+  <edges name="getSchema" src="getSchema" target="getEntityResolver"/>
+  <edges name="getEntityResolver" src="getEntityResolver" target="getXMLReader"/>
+  <edges name="getXMLReader" src="getXMLReader" target="setContentHandler"/>
+  <edges name="setContentHandler" src="setContentHandler"/>
+</msid:CallGraph>

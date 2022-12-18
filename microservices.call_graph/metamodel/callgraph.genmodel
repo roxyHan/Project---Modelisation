@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/microservices.call_graph/src" modelPluginID="microservices.call_graph"
+    modelName="Callgraph" importerID="org.eclipse.emf.importer.ecore" complianceLevel="6.0"
+    copyrightFields="false">
+  <foreignModel>callgraph.ecore</foreignModel>
+  <genPackages prefix="Callgraph" disposableProviderFactory="true" ecorePackage="callgraph.ecore#/">
+    <genClasses ecoreClass="callgraph.ecore#//CallGraph">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute callgraph.ecore#//CallGraph/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference callgraph.ecore#//CallGraph/nodes"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference callgraph.ecore#//CallGraph/edges"/>
+    </genClasses>
+    <genClasses ecoreClass="callgraph.ecore#//Node">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute callgraph.ecore#//Node/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute callgraph.ecore#//Node/class"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute callgraph.ecore#//Node/package"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute callgraph.ecore#//Node/structWeight"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference callgraph.ecore#//Node/incoming_edges"/>
+    </genClasses>
+    <genClasses ecoreClass="callgraph.ecore#//Edge">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute callgraph.ecore#//Edge/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute callgraph.ecore#//Edge/src"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute callgraph.ecore#//Edge/target"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>
