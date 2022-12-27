@@ -26,4 +26,5 @@ Using neo4j AuraDB:
 
 - URI: neo4j+s://c9d6b05f.databases.neo4j.io
 - username: neo4j
+- password: 3-PoklNy4Jyexh3YqgmyjVoPScpcI7I6tMvXpA38c_0
 
