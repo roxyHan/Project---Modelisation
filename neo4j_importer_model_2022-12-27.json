@@ -1,0 +1,251 @@
+{
+  "version": "0.8.0",
+  "graph": {
+    "nodes": [
+      {
+        "id": "n0",
+        "position": {
+          "x": -91,
+          "y": 13
+        },
+        "caption": "Node A"
+      },
+      {
+        "id": "n1",
+        "position": {
+          "x": 137,
+          "y": 117
+        },
+        "caption": "Node B"
+      }
+    ],
+    "relationships": [
+      {
+        "id": "n1",
+        "type": "Links",
+        "fromId": "n0",
+        "toId": "n1"
+      }
+    ]
+  },
+  "dataModel": {
+    "configurations": {
+      "idsToIgnore": []
+    },
+    "fileModel": {
+      "fileSchemas": {
+        "nodesInfo.csv": {
+          "expanded": true,
+          "fields": [
+            {
+              "name": "name",
+              "type": "string",
+              "sample": "addRecognizedFeatures",
+              "include": true
+            },
+            {
+              "name": "class",
+              "type": "string",
+              "sample": " ParserConfigurationSettings",
+              "include": true
+            },
+            {
+              "name": "package",
+              "type": "string",
+              "sample": " util",
+              "include": true
+            },
+            {
+              "name": "structWeight",
+              "type": "integer",
+              "sample": " 9 ",
+              "include": true
+            }
+          ]
+        },
+        "linksInfo.csv": {
+          "expanded": true,
+          "fields": [
+            {
+              "name": "id",
+              "type": "string",
+              "sample": "addRecognizedFeatures",
+              "include": true
+            },
+            {
+              "name": "source",
+              "type": "string",
+              "sample": " addRecognizedFeatures",
+              "include": true
+            },
+            {
+              "name": "target",
+              "type": "string",
+              "sample": "addRecognizedProperties ",
+              "include": true
+            }
+          ]
+        }
+      }
+    },
+    "graphModel": {
+      "nodeSchemas": {
+        "n0": {
+          "label": "Node A",
+          "additionLabels": [],
+          "labelProperties": [],
+          "properties": [
+            {
+              "property": "name",
+              "type": "string",
+              "identifier": "x3WEO39Yj0qmcbIcVvvFL"
+            },
+            {
+              "property": "class",
+              "type": "string",
+              "identifier": "6U9ZLbhN8dN0Msvzs1xhM"
+            },
+            {
+              "property": "package",
+              "type": "string",
+              "identifier": "2gRih4BjD4y0u1ZTsZXU5"
+            },
+            {
+              "property": "structWeight",
+              "type": "integer",
+              "identifier": "22WYzL-cf7vDxb-LzdrbN"
+            }
+          ],
+          "key": {
+            "properties": [
+              "x3WEO39Yj0qmcbIcVvvFL"
+            ]
+          }
+        },
+        "n1": {
+          "label": "Node B",
+          "additionLabels": [],
+          "labelProperties": [],
+          "properties": [
+            {
+              "property": "name",
+              "type": "string",
+              "identifier": "PI--fHjEbjmTal2r1di1u"
+            },
+            {
+              "property": "class",
+              "type": "string",
+              "identifier": "BYPy0VMzjzQhge5elRh06"
+            },
+            {
+              "property": "package",
+              "type": "string",
+              "identifier": "dFMchlkmWMzfNe5O4BkCj"
+            },
+            {
+              "property": "structWeight",
+              "type": "integer",
+              "identifier": "bGFJZIj5Y8Zi0A-dxVWWJ"
+            }
+          ],
+          "key": {
+            "properties": [
+              "PI--fHjEbjmTal2r1di1u"
+            ]
+          }
+        }
+      },
+      "relationshipSchemas": {
+        "n1": {
+          "type": "Links",
+          "sourceNodeSchema": "n0",
+          "targetNodeSchema": "n1",
+          "properties": [
+            {
+              "property": "source",
+              "type": "string",
+              "identifier": "MXP9d-GTHPK_g1z2b8ZZl"
+            },
+            {
+              "property": "target",
+              "type": "string",
+              "identifier": "-h3c7ffcocL53ss1hPiXI"
+            },
+            {
+              "property": "id",
+              "type": "string",
+              "identifier": "725G-jpekBlFZ5jQVC0qp"
+            }
+          ]
+        }
+      }
+    },
+    "mappingModel": {
+      "nodeMappings": {
+        "n0": {
+          "nodeSchema": "n0",
+          "fileSchema": "nodesInfo.csv",
+          "mappings": [
+            {
+              "field": "name"
+            },
+            {
+              "field": "class"
+            },
+            {
+              "field": "package"
+            },
+            {
+              "field": "structWeight"
+            }
+          ]
+        },
+        "n1": {
+          "nodeSchema": "n1",
+          "fileSchema": "nodesInfo.csv",
+          "mappings": [
+            {
+              "field": "name"
+            },
+            {
+              "field": "class"
+            },
+            {
+              "field": "package"
+            },
+            {
+              "field": "structWeight"
+            }
+          ]
+        }
+      },
+      "relationshipMappings": {
+        "n1": {
+          "relationshipSchema": "n1",
+          "mappings": [
+            {
+              "field": "source"
+            },
+            {
+              "field": "target"
+            },
+            {
+              "field": "id"
+            }
+          ],
+          "sourceMappings": [
+            {
+              "field": "id"
+            }
+          ],
+          "targetMappings": [
+            {
+              "field": "id"
+            }
+          ],
+          "fileSchema": "linksInfo.csv"
+        }
+      }
+    }
+  }
+}
