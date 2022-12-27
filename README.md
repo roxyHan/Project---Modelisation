@@ -21,10 +21,15 @@ Microservices > Transformation
 
 5. Graph Database
 
+*The model to load in Neo4j Aura to view the graph is provided as a json file:
+neo4j_importer_model
+
 Information regarding the graph database 
 Using neo4j AuraDB:
 
 - URI: neo4j+s://c9d6b05f.databases.neo4j.io
 - username: neo4j
 - password: 3-PoklNy4Jyexh3YqgmyjVoPScpcI7I6tMvXpA38c_0
+
+
 
